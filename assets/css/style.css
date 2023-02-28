@@ -136,7 +136,12 @@ footer {
     z-index: 1;
 }
 
-
+#embed-merch {
+    width: 40vw;
+    height: 60vh;
+    align-items: center;
+    padding: 0 25% 0 25%;
+}
 
 
 /* For small screen sizes below 800px width */
