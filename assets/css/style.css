@@ -9,7 +9,7 @@
 header {
     font-family: "Roboto Flex", sans-serif;
     text-decoration-color: black;
-    background: linear-gradient(180deg, rgba(212, 39, 193, 255) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
+    background: linear-gradient(180deg, rgba(212, 39, 193, 1) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
     height: 120px;
     line-height: 60px;
     text-decoration: none;
@@ -92,13 +92,14 @@ a:visited {
     background-size: contain;
 }
 
+
 .name-buttons {
     font-family: "Do Hyeon", sans-serif;
     text-align: center;
     float: inline-start;
     width: 150px;
     height: 35px;
-    background-image: linear-gradient(to top, rgba(212, 39, 193, 255) 30%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to top, rgba(212, 39, 193, 1) 30%, rgba(255, 255, 255, 0) 100%);
     align-items: center;
     margin: 15px 0px 0px 50px;
     z-index: 1;
@@ -124,8 +125,8 @@ header, footer {
 }
 
 footer {
-    font-family: "Roboto-Flex", sans-serif;
-    background: linear-gradient(0deg, rgba(212, 39, 193, 255) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
+    font-family: "Do Hyeon", sans-serif;
+    background: linear-gradient(0deg, rgba(212, 39, 193, 1) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
     position: fixed;
     height: 120px;
     line-height: 180px;
@@ -149,15 +150,16 @@ footer {
     #socials {
         font-size: larger;
     }
-}
+
 
 #embed-merch {
     min-width: 85%;
     height: 60vh;
     align-items: center;
-    padding: 0 5% 0 5%;
+    padding: 0 3% 0 3%;
 }
 
 footer {
     font-size: small;
+}
 }
