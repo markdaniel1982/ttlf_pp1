@@ -84,18 +84,13 @@ a:visited {
 }
 
 #image-container {
-    height: 100vh
-}
-
-#bg {
+    height: 80vh;
     background-image: url('/assets/images/ttlf_logo_purple_blue.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 120px;
-    z-index: -2;
-    
 }
+
 
 header, footer {
     position: relative;
@@ -113,5 +108,4 @@ footer {
     width: 100%;
     margin-top: auto;
     z-index: 1;
-}
 }
