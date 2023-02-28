@@ -8,8 +8,9 @@
 
 header {
     font-family: "Roboto Flex", sans-serif;
+    font-weight: bold;
+    text-decoration-color: black;
     background: linear-gradient(180deg, rgba(212, 39, 193, 255) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
-    color: black;
     height: 120px;
     line-height: 60px;
     text-decoration: none;
@@ -22,10 +23,13 @@ header {
 }
 
 #socials {
+    
     float: right;
     top: 0;
-    color: black;
     letter-spacing: 30px;
     font-size: xx-large;
-    /* text-decoration: none; */
 }
+
+a:visited {
+    color: black;
+  }
