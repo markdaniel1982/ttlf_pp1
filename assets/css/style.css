@@ -12,9 +12,20 @@ header {
     color: black;
     height: 120px;
     line-height: 60px;
+    text-decoration: none;
 }
 
 #menu-icon {
     font-size: 175%;
-    padding: 15px;    
+    padding: 15px;
+    float: left
+}
+
+#socials {
+    float: right;
+    top: 0;
+    color: black;
+    letter-spacing: 30px;
+    font-size: xx-large;
+    /* text-decoration: none; */
 }
