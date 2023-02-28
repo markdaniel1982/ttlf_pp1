@@ -22,7 +22,7 @@ header {
 }
 
 #socials {
-    
+
     float: right;
     top: 0;
     letter-spacing: 30px;
@@ -31,7 +31,7 @@ header {
 
 a:visited {
     color: black;
-  }
+}
 
 .active {
     background-color: #e7aae7;
@@ -81,4 +81,18 @@ a:visited {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: rgba(0, 0, 0, 0);
+}
+
+footer {
+    font-family: "Roboto-Flex", sans-serif;
+    background: linear-gradient(0deg, rgba(212, 39, 193, 255) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
+    position: fixed;
+    height: 120px;
+    line-height: 180px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    z-index: 1;
+}
 }
