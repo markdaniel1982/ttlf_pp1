@@ -82,12 +82,39 @@ a:visited {
     background-color: rgba(0, 0, 0, 0);
 }
 
+
+/* Main body  */
 #image-container {
     height: 60vh;
     background-image: url('/assets/images/ttlf_logo_purple_blue.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.name-buttons {
+    font-family: "Do Hyeon", sans-serif;
+    text-align: center;
+    float: inline-start;
+    width: 150px;
+    height: 35px;
+    background-image: linear-gradient(to top, rgba(212, 39, 193, 255) 30%, rgba(255, 255, 255, 0) 100%);
+    align-items: center;
+    margin: 15px 0px 0px 50px;
+    z-index: 1;
+}
+
+.bio-text {
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(212, 39, 193, 0.8);
+    align-items: center;
+    margin: 2px 50px 0px 50px;
+    z-index: 1;
+}
+
+#bios {
+    padding-bottom: 100px;
 }
 
 
