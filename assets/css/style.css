@@ -22,10 +22,9 @@ header {
 }
 
 #socials {
-
     float: right;
     top: 0;
-    letter-spacing: 30px;
+    letter-spacing: 10px;
     font-size: xx-large;
 }
 
@@ -108,4 +107,14 @@ footer {
     width: 100%;
     margin-top: auto;
     z-index: 1;
+}
+
+
+
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #socials {
+        font-size: larger;
+    }
 }
