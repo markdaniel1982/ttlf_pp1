@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    font-family: "Roboto Flex", sans-serif;
+}
