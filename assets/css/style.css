@@ -88,8 +88,6 @@ header a:visited {
 
 /* Main body  */
 
-
-
 a:hover {
     color: #a138a1;
     text-decoration: underline;
@@ -106,6 +104,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    
 }
 
 
@@ -141,9 +140,7 @@ a {
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
     position: relative;
     top: 30%;
-    margin-bottom: 2%;
     text-transform: uppercase;
-
 }
 
 .who-are-we {
