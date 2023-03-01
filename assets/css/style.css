@@ -30,7 +30,7 @@ header {
 
 }
 
-a:visited {
+header a:visited {
     color: whitesmoke;
 }
 
@@ -87,6 +87,17 @@ a:visited {
 
 
 /* Main body  */
+
+
+
+a:hover {
+    color: #a138a1;
+}
+
+a {
+    text-decoration: none;
+}
+
 #image-container {
     height: 60vh;
     background-image: url('/assets/images/ttlf_logo_purple_blue.png');
@@ -161,6 +172,38 @@ footer {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
+/* Latest releases gallery */
+
+section,h1 {
+    padding-bottom: 0 1em;
+  }
+  
+  /* #latest-releases {
+    a:visited {
+        text-decoration-color: none;
+      }
+  } */
+
+  .grid-container {
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,20%);  /* 3 columns */
+    grid-template-rows: repeat(2,50%); /* 3 rows  */
+    grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+    margin-bottom: 120px;
+  }
+  
+  .grid-item{
+    padding:10px;
+  }
+  img {
+    width: 100%;
+  }
+
+
+  /* Merch store */
 #embed-merch {
     width: 40vw;
     height: 60vh;
@@ -196,4 +239,15 @@ footer {
     footer {
         font-size: small;
     }
+
+    .grid-container {
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2,20%);  /* 2 columns */
+        grid-template-rows: repeat(3,50%); /* 3 rows  */
+        grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+        margin-bottom: 120px;
+        padding-left: auto;
+      }
 }
