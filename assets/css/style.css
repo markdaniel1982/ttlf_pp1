@@ -27,7 +27,7 @@ header {
     top: 0;
     letter-spacing: 10px;
     font-size: xx-large;
-    
+
 }
 
 a:visited {
@@ -121,11 +121,31 @@ a:visited {
     padding-bottom: 100px;
 }
 
+#about {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bold;
+    height: fit-content;
+    background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.6));
+    position: relative;
+    top: 33%;
+    margin-bottom: 2%;
+    
+}
+#about > h3 {
+    text-transform: uppercase;
+}
 
-header, footer {
+.who-are-we {
+    min-height: 15px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+header,
+footer {
     position: relative;
     z-index: 1
-    
 }
 
 footer {
@@ -158,14 +178,14 @@ footer {
     }
 
 
-#embed-merch {
-    min-width: 85%;
-    height: 60vh;
-    align-items: center;
-    padding: 0 3% 0 3%;
-}
+    #embed-merch {
+        min-width: 85%;
+        height: 60vh;
+        align-items: center;
+        padding: 0 3% 0 3%;
+    }
 
-footer {
-    font-size: small;
-}
+    footer {
+        font-size: small;
+    }
 }
