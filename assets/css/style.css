@@ -139,8 +139,9 @@ a {
     /* font-weight: bolder; */
     height: fit-content;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
-    position: relative;
-    top: 30%;
+    /* position: relative;
+    top: 30%; */
+    margin-top: 150px;
     text-transform: uppercase;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
 }
@@ -221,7 +222,7 @@ img {
 
 
 
-/* For small screen sizes below 800px width */
+/* For small screen sizes below 915px width */
 @media screen and (max-width: 800px) {
     #socials {
         font-size: larger;
@@ -233,7 +234,8 @@ img {
         height: fit-content;
         background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.6));
         position: relative;
-        top: 15%;
+        margin-top: 250px;
+        margin-bottom: 15px;
     }
 
 
