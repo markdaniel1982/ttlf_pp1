@@ -135,12 +135,14 @@ a {
 
 #about {
     font-family: "Roboto Flex", sans-serif;
-    font-weight: bold;
+    text-size-adjust: 150%;
+    /* font-weight: bolder; */
     height: fit-content;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
     position: relative;
     top: 30%;
     text-transform: uppercase;
+    text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
 }
 
 .who-are-we {
@@ -173,14 +175,15 @@ footer {
 
 div > h1 {
     padding-top: 3% ;
+    text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
 }
 
 #latest-releases {
     font-family: "Roboto Flex", sans-serif;
     text-align: center;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
-    padding-bottom: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 150px;
+
     
 }
 
@@ -188,6 +191,7 @@ div > h1 {
     
     align-items: center;
     justify-content: center;
+    text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
     display: grid;
     grid-template-columns: repeat(3, 25%);
     /* 3 columns */
@@ -248,8 +252,8 @@ img {
         font-family: "Roboto Flex", sans-serif;
         text-align: center;
         background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
-        padding-bottom: 340px;
-        margin-bottom: 240px;
+        padding-bottom: 500px;
+        margin-bottom: 0px;
         
     }
 
