@@ -180,15 +180,17 @@ h1 {
     padding-bottom: 0 1em;
 }
 
-article>h1 {
-    text-align: center;
-}
+
 
 article {
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
     text-align: center;
     margin-bottom: 120px;
 } */
+
+div > h1 {
+    padding-top: 3% ;
+}
 
 #latest-releases {
     font-family: "Roboto Flex", sans-serif;
