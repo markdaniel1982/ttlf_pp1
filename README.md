@@ -36,12 +36,15 @@ _____
 
 ## Credits
 
-* Content from the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) 
-* Content from latest releases section on homepage has been taken from [toolbox digital shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
-
-
 ___
 ### Code
 
-### Content
-### Media
+* Code for 'latest releases' grid found on [Codepen](https://codepen.io/TexV/pen/pwywNW) and amended to suit my needs
+* Color gradient css code from [w3schools](https://www.w3schools.com/css/css3_gradients.asp) and amended to suit my needs
+
+### Content & Media
+
+* Content from the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) 
+* Content from latest releases section on homepage has been taken from [toolbox digital shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
+* Fonts from Google fonts
+* Icons from Fontawesome
