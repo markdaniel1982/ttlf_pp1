@@ -223,7 +223,7 @@ img {
 
 
 /* For small screen sizes below 915px width */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 916px) {
     #socials {
         font-size: larger;
     }
@@ -231,19 +231,22 @@ img {
     #about {
         font-family: "Roboto Flex", sans-serif;
         font-weight: bold;
+        text-align: justify;
         height: fit-content;
         background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.6));
         position: relative;
-        margin-top: 250px;
+        margin-top: 50px;
         margin-bottom: 15px;
     }
 
 
     #embed-merch {
         min-width: 85%;
-        height: 60vh;
+        height: 85vh;
         align-items: center;
-        padding: 0 3% 0 3%;
+        padding: 0 0 0 8%;
+        align-items: center;
+        margin-bottom: 150px;
     }
 
     footer {
