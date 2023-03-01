@@ -137,6 +137,7 @@ a {
 
 #about {
     font-family: "Roboto Flex", sans-serif;
+    font-weight: bold;
     text-size-adjust: 150%;
     height: fit-content;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
