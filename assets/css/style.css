@@ -136,12 +136,12 @@ a {
     font-family: "Roboto Flex", sans-serif;
     font-weight: bold;
     height: fit-content;
-    background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.6));
+    background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
     position: relative;
     top: 30%;
     margin-bottom: 2%;
     text-transform: uppercase;
-    
+
 }
 
 .who-are-we {
@@ -174,36 +174,55 @@ footer {
 
 /* Latest releases gallery */
 
-section,h1 {
+/* section,
+h1 {
+    font-family: "Roboto Flex", sans-serif;
     padding-bottom: 0 1em;
-  }
-  
-  /* #latest-releases {
-    a:visited {
-        text-decoration-color: none;
-      }
-  } */
+}
 
-  .grid-container {
+article>h1 {
+    text-align: center;
+}
+
+article {
+    background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
+    text-align: center;
+    margin-bottom: 120px;
+} */
+
+#latest-releases {
     font-family: "Roboto Flex", sans-serif;
     text-align: center;
+    background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.grid-container {
+    
     align-items: center;
+    justify-content: center;
     display: grid;
-    grid-template-columns: repeat(3,20%);  /* 3 columns */
-    grid-template-rows: repeat(2,50%); /* 3 rows  */
-    grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
-    margin-bottom: 120px;
-  }
-  
-  .grid-item{
-    padding:10px;
-  }
-  img {
+    grid-template-columns: repeat(3, 25%);
+    /* 3 columns */
+    grid-template-rows: repeat(2, 50%);
+    /* 3 rows  */
+    grid-gap: 50px 30px;
+    /* 50 pixels of space added between rows and 30 pixels added between columns  */
+    
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+img {
     width: 100%;
-  }
+}
 
 
-  /* Merch store */
+/* Merch store */
 #embed-merch {
     width: 40vw;
     height: 60vh;
@@ -227,7 +246,7 @@ section,h1 {
         position: relative;
         top: 15%;
     }
-      
+
 
     #embed-merch {
         min-width: 85%;
@@ -240,14 +259,26 @@ section,h1 {
         font-size: small;
     }
 
+    #latest-releases {
+        font-family: "Roboto Flex", sans-serif;
+        text-align: center;
+        background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
+        padding-bottom: 340px;
+        margin-bottom: 240px;
+        
+    }
+
     .grid-container {
         text-align: center;
         align-items: center;
         display: grid;
-        grid-template-columns: repeat(2,20%);  /* 2 columns */
-        grid-template-rows: repeat(3,50%); /* 3 rows  */
-        grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+        grid-template-columns: repeat(2, 30%);
+        /* 2 columns */
+        grid-template-rows: repeat(3, 50%);
+        /* 3 rows  */
+        grid-gap: 50px 30px;
+        /* 50 pixels of space added between rows and 30 pixels added between columns  */
         margin-bottom: 120px;
         padding-left: auto;
-      }
+    }
 }
