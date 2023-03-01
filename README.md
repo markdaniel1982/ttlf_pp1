@@ -45,6 +45,6 @@ ___
 ### Content & Media
 
 * Content from the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) 
-* Content from latest releases section on homepage has been taken from [toolbox digital shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
+* Content and images from latest releases section on homepage has been taken from [toolbox digital shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
 * Fonts from Google fonts
 * Icons from Fontawesome

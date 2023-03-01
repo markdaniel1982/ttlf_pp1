@@ -172,22 +172,6 @@ footer {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
-/* Latest releases gallery */
-
-/* section,
-h1 {
-    font-family: "Roboto Flex", sans-serif;
-    padding-bottom: 0 1em;
-}
-
-
-
-article {
-    background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
-    text-align: center;
-    margin-bottom: 120px;
-} */
-
 div > h1 {
     padding-top: 3% ;
 }
@@ -209,7 +193,7 @@ div > h1 {
     grid-template-columns: repeat(3, 25%);
     /* 3 columns */
     grid-template-rows: repeat(2, 50%);
-    /* 3 rows  */
+    /* 2 rows  */
     grid-gap: 50px 30px;
     /* 50 pixels of space added between rows and 30 pixels added between columns  */
     
@@ -274,7 +258,7 @@ img {
         text-align: center;
         align-items: center;
         display: grid;
-        grid-template-columns: repeat(2, 30%);
+        grid-template-columns: repeat(2, 40%);
         /* 2 columns */
         grid-template-rows: repeat(3, 50%);
         /* 3 rows  */
