@@ -90,6 +90,7 @@ header a:visited {
 
 a:hover {
     color: #a138a1;
+    text-decoration: underline;
 }
 
 a {
