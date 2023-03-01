@@ -1,16 +1,20 @@
 # Trip the Light Fantastic
 
 Trip the Light Fantastic is a site for information about the digital record label run by 4 knowledgable and enthusiastic friends from the Midlands, UK. 
-The site is aimed at followers and fans and will allow them to learn more about the owners by way of a DJ profile page, and also to browse and buy branded merchandise.
+The site is aimed at followers and fans and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases, and also to view and buy branded merchandise from an external webshop (webshop is embedded).
 
 _____
 
 ## Features
-The site lands on a page displaying the brand logo.
+The site lands on a page displaying the brand logo, a short 'about us' section and a gallery of the latest track releases from the label.
+
+![header and navigation](/assets/images/header.png "Header and Navigation")
+
+* Navigation and header
 
 There is a hamburger menu which opens to display links to the pages contained within the site (DJ profiles & merch store). This is displayed across all 3 pages to allow for easier, more intuitive navigation.
 
-the pages are responsive when viewed on smaller devices, where the social links and merch store are resized to fit the screen.
+The pages are responsive when viewed on smaller devices, where the content resized to fit the screen and improve viewability.
 
 _____
 
@@ -31,6 +35,12 @@ _____
 _____
 
 ## Credits
+
+* Content from the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) 
+* Content from latest releases section on homepage has been taken from [toolbox digital shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
+
+
+___
 ### Code
 
 ### Content

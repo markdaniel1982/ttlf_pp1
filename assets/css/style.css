@@ -127,12 +127,10 @@ a:visited {
     height: fit-content;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.6));
     position: relative;
-    top: 33%;
+    top: 30%;
     margin-bottom: 2%;
-    
-}
-#about > h3 {
     text-transform: uppercase;
+    
 }
 
 .who-are-we {
@@ -171,12 +169,22 @@ footer {
 }
 
 
+
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
     #socials {
         font-size: larger;
     }
 
+    #about {
+        font-family: "Roboto Flex", sans-serif;
+        font-weight: bold;
+        height: fit-content;
+        background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.6));
+        position: relative;
+        top: 15%;
+    }
+      
 
     #embed-merch {
         min-width: 85%;
