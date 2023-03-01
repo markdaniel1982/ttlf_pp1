@@ -90,11 +90,9 @@ header a:visited {
 
 a:hover {
     color: #a138a1;
-    text-decoration: underline;
 }
 
 a {
-    color: black;
     text-decoration: none;
 }
 
@@ -171,9 +169,8 @@ footer {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
-div > h2 {
-    padding-top: 3%;
-    padding-bottom: 3%;
+div > h1 {
+    padding-top: 3% ;
 }
 
 #latest-releases {
