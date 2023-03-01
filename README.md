@@ -24,10 +24,12 @@ All pages have passed through an HTML validator any any errors have been correct
 The css has also been passed through a validator and 1 error has been corrected
 ___
 
-### Errors
+### Errors & Debugging
 While running the code through a validty checker, I had included a 'div' inside an 'h2' element on the profiles page. All instances were corrected and there are no longer any errors
 
 In my css stylesheet, I had put the incorrect number in an rbga element for transparency. The value of 255 was corrected to 1
+
+Throughout the project, I was checking the responsivity for smaller devices, debugging using devtools in Chrome and adjusting any elements accordingly. The main issue i had was the positioning of the hero text on the home page, which was sitting too low on smaller devices. This was fixed with a media query to reposition the element when viewed on a mobile phone.
 _____
 
 ## Deployment
