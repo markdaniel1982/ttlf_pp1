@@ -7,7 +7,12 @@ The site is aimed at followers and fans and will allow them to learn more about 
 
 _____
 
-## Features
+## Features and Theme
+
+I have chosen colours that match the brand logo that I have used as the hero image across all pages.
+I used rgba(212, 39, 193, 1) an added a gradient to transparent for the header, footer and any elements within the pages which can be seen in the images above.
+
+### Main Page
 The site lands on a page displaying the brand logo, a short 'about us' section and a gallery of the latest track releases from the label.
 
 ![header and navigation](documentation/images/header.png "Header and Navigation")
@@ -16,23 +21,20 @@ The site lands on a page displaying the brand logo, a short 'about us' section a
 
 There is a hamburger menu which opens to display links to the pages contained within the site (DJ profiles & merch store). This is displayed across all 3 pages to allow for easier, more intuitive navigation.
 
-  * Latest Releases
+  * Latest Releases:
 
 As you scroll down the page, there is a grid view showing the music that has most recently been released by the label, which can be purchased by clicking the link to go to an external site [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/).
 
-* DJ Profiles
+
+### DJ Profiles
 
 On this page, there is biography information to tell the reader more about the co-founders of the record label. The styling follows from the home page to create or more fluid user experience.
 
-* Merchandise
+### Merchandise
 
 Here I have included an embedded version of the merchandise store where the reader can browse and purchase branded clothing items
 
 All pages are responsive when viewed on smaller devices, where the content resized to fit the screen and improve viewability.
-
-## Theme
-I have chosen colours that match the brand logo that I have used as the hero image across all pages.
-I used rgba(212, 39, 193, 1) an added a gradient to transparent for the header, footer and any elements within the pages which can be seen in the images above.
 
 _____
 
@@ -53,8 +55,16 @@ Errors found:
 ![CSS Validation](documentation/images/css_validation.png "CSS Validation")
 
 ### Lighthouse
-* After lighthouse testing, It showed that I needed to add an aria-label to the dropdown menu button. After adding, the lighthouse test was much better. 
+After lighthouse testing, It showed that I needed to add an aria-label to the dropdown menu button. After adding, the lighthouse test was much better. 
+
+Desktop
+![Lighthouse Test Result for Desktop](documentation/images/lighthouse_desktop.png)
+Mobile
+![Lighthouse Test Result for Mobile](documentation/images/lighthouse_mobile.png) 
+
 The only remaining issue was in the "Best Practices" section, where any errors came from the embedded content, not my code.
+
+![Lighthouse Embedded Content Issue](documentation/images/lighthouse_embedded_content_issue.png)
 ___
 
 ### Errors & Debugging
@@ -74,12 +84,20 @@ _____
 ___
 ### Code
 
-* Code for 'latest releases' grid found on [Codepen](https://codepen.io/TexV/pen/pwywNW) and amended to suit my needs
-* Color gradient css code from [w3schools](https://www.w3schools.com/css/css3_gradients.asp) and amended to suit my needs
+* Code for 'latest releases' grid found on [Codepen](https://codepen.io/TexV/pen/pwywNW) and amended to suit my requirements.
+
+* Color gradient css code from [w3schools CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp) and amended to suit my requirements.
+
+* Code and Styling for the dropdown menu taken from [w3schools Hoverable Dropdown Menu](https://www.w3schools.com/howto/howto_js_dropdown.asp) and amended to suit my requirements.
 
 ### Content & Media
 
-* Content from the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) 
+* Content included in the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) and from the TTLF logo pack which was provided to me from the label owners.
+
 * Content and images from latest releases section on homepage has been taken from [toolbox digital shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
-* Fonts from Google fonts
+
+## Fonts and Icons 
+ 
+ * Fonts from Google fonts
+
 * Icons from Fontawesome
