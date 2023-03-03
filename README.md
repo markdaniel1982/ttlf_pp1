@@ -58,8 +58,11 @@ Errors found:
 After lighthouse testing, It showed that I needed to add an aria-label to the dropdown menu button. After adding, the lighthouse test was much better. 
 
 Desktop
+
 ![Lighthouse Test Result for Desktop](documentation/images/lighthouse_desktop.png)
+
 Mobile
+
 ![Lighthouse Test Result for Mobile](documentation/images/lighthouse_mobile.png) 
 
 The only remaining issue was in the "Best Practices" section, where any errors came from the embedded content, not my code.
@@ -77,11 +80,15 @@ _____
 
 ## Deployment
 
+The site was created in gitpod, and pushed to github to make it publicly accessible using the following commands in the terminal:
+
+  * git add .
+  * git commit -m "Description of updates since last commit"
+  * git push
 _____
 
 ## Credits
 
-___
 ### Code
 
 * Code for 'latest releases' grid found on [Codepen](https://codepen.io/TexV/pen/pwywNW) and amended to suit my requirements.
@@ -96,7 +103,7 @@ ___
 
 * Content and images from latest releases section on homepage has been taken from [toolbox digital shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
 
-## Fonts and Icons 
+### Fonts and Icons 
  
  * Fonts from Google fonts
 
