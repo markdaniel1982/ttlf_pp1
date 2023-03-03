@@ -3,6 +3,8 @@
 Trip the Light Fantastic is a site for information about the digital record label run by 4 knowledgable and enthusiastic friends from the Midlands, UK. 
 The site is aimed at followers and fans and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases, and also to view and buy branded merchandise from an external webshop (webshop is embedded).
 
+![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
+
 _____
 
 ## Features
@@ -14,7 +16,7 @@ The site lands on a page displaying the brand logo, a short 'about us' section a
 
 There is a hamburger menu which opens to display links to the pages contained within the site (DJ profiles & merch store). This is displayed across all 3 pages to allow for easier, more intuitive navigation.
 
-* Latest Releases
+  * Latest Releases
 
 As you scroll down the page, there is a grid view showing the music that has most recently been released by the label, which can be purchased by clicking the link to go to an external site [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/).
 
@@ -28,7 +30,9 @@ Here I have included an embedded version of the merchandise store where the read
 
 All pages are responsive when viewed on smaller devices, where the content resized to fit the screen and improve viewability.
 
-![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
+## Theme
+I have chosen colours that match the brand logo that I have used as the hero image across all pages.
+I used rgba(212, 39, 193, 1) an added a gradient to transparent for the header, footer and any elements within the pages which can be seen in the images above.
 
 _____
 
