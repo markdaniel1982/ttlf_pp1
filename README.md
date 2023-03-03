@@ -5,12 +5,24 @@ The site is aimed at followers and fans and will allow them to learn more about 
 
 ![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
 
+## Key Project Goals
+
+* As a Company
+  * To provide information about who we are and what we do.
+  * Generate interest as soon as the user lands on the site.
+  * To allow users of the site to see a selection of our newest products.
+  * To generate income from our products.
+
+* As a designer
+  * To allow users to visit the site from any device and ensure that all content is easily viewed without distraction from other elements or any overlapping content.
+  * To allow users to easily move around the site without having to spend time trying to figure out how to navigate between areas or pages.
+  * To provide relevant information to the user.
 _____
 
 ## Features and Theme
 
 I have chosen colours that match the brand logo that I have used as the hero image across all pages.
-I used rgba(212, 39, 193, 1) an added a gradient to transparent for the header, footer and any elements within the pages which can be seen in the images above.
+I used rgba(212, 39, 193, 1) an added a gradient to transparent for the header, footer and any elements within the pages which can be seen in the images both above and below.
 
 ### Main Page
 The site lands on a page displaying the brand logo, a short 'about us' section and a gallery of the latest track releases from the label.
