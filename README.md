@@ -66,6 +66,12 @@ Errors found:
 
 ![CSS Validation](documentation/images/css_validation.png "CSS Validation")
 
+### Responsivity
+
+Through the project, I regularly checked that any required elements were responsive to allow them to be clearly seen on all devices.
+
+Any issues were found and debugged using the devtools in the Chrome browser.
+
 ### Lighthouse
 After lighthouse testing, It showed that I needed to add an aria-label to the dropdown menu button. After adding, the lighthouse test was much better. 
 
