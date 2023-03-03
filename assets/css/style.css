@@ -61,13 +61,14 @@ header a:visited {
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	font-family: 'Roboto', sans-serif;
+	
 	justify-content: center;
 	height: 100vh;
 	text-align: center;
 } */
 
 #mailing-list {
+    font-family: 'Roboto', sans-serif;
     position: relative;
     top: -130px;   
     width: 240px;
