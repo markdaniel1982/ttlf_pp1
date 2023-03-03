@@ -259,7 +259,7 @@ footer {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
-div > h1 {
+#latest-releases > h1 {
     padding-top: 3% ;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
 }
@@ -296,13 +296,15 @@ img {
     width: 100%;
 }
 
-
-/* Merch store */
-#embed-merch {
-    width: 40vw;
-    height: 60vh;
+.merch-container {
+    
     align-items: center;
-    padding: 0 25% 0 25%;
+    justify-content: center;
+    text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    padding-bottom: 25%;
+    grid-gap: 50px 30px;    
 }
 
 
@@ -325,15 +327,7 @@ img {
     }
 
 
-    /* #embed-merch {
-        min-width: 85%;
-        height: 85vh;
-        align-items: center;
-        padding: 0 0 0 8%;
-        align-items: center;
-        margin-bottom: 150px;
-    } */
-
+ 
     footer {
         font-size: small;
     }
@@ -358,5 +352,16 @@ img {
         grid-gap: 50px 30px;
         /* 50 pixels of space added between rows and 30 pixels added between columns  */
         margin-bottom: 120px;
+    }
+
+    .merch-container {
+    
+        align-items: center;
+        justify-content: center;
+        text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        padding-bottom: 25%;
+        grid-gap: 50px 30px;    
     }
 }
