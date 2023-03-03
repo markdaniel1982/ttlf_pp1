@@ -273,6 +273,5 @@ img {
         grid-gap: 50px 30px;
         /* 50 pixels of space added between rows and 30 pixels added between columns  */
         margin-bottom: 120px;
-        padding-left: auto;
     }
 }

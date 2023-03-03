@@ -20,8 +20,12 @@ _____
 
 ## Testing
 All pages have passed through an HTML validator any any errors have been corrected
+Errors found:
+* 1 unclosed dev element on Merch page. this was fixed and when the checker was run again, there were no errors
 
 The css has also been passed through a validator and 1 error has been corrected
+Errors found:
+* Padding-left on the media query for smaller devices was not needed. this has been removed
 ___
 
 ### Errors & Debugging
