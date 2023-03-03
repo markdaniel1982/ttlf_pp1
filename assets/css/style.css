@@ -40,33 +40,6 @@ header a:visited {
 
 /* Mailing list*/
 
-/* :root {
-	--pink1: #EF73CB;
-	--pink2: #DC5F89;
-} */
-
-
-
-/* * {
-	box-sizing: border-box;
-} */
-
-/* body, html {
-	margin: 0;
-} */
-
-/* body {
-	align-items: center;
-	background-color: #FEF8FC;
-	color: #fff;
-	display: flex;
-	flex-direction: column;
-	
-	justify-content: center;
-	height: 100vh;
-	text-align: center;
-} */
-
 #mailing-list {
     font-family: 'Roboto', sans-serif;
     position: relative;
@@ -297,7 +270,7 @@ img {
 }
 
 .merch-container {
-    
+    text-align: center;
     align-items: center;
     justify-content: center;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
@@ -307,6 +280,10 @@ img {
     grid-gap: 50px 30px;    
 }
 
+div, h1 {
+    
+    text-align: center;
+}
 
 /* Code Credit - initially from Love Running Project, amended for purpose*/
 /* For small screen sizes below 915px width */
@@ -355,7 +332,7 @@ img {
     }
 
     .merch-container {
-    
+        text-align: center;
         align-items: center;
         justify-content: center;
         text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
