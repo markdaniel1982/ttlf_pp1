@@ -19,6 +19,15 @@ The site is aimed at followers and fans and will allow them to learn more about 
   * To provide relevant information to the user.
 _____
 
+## Wireframes
+
+* Desktop
+
+<img src="documentation/images/wireframe_index.png" alt="Wireframe Index" width="20%" height="20%">
+<img src="documentation/images/wireframe_profiles.png" alt="Wireframe Profiles" width="20%" height="20%">
+<img src="documentation/images/wireframe_merch.png" alt="Wireframe Merch" width="20%" height="20%">
+
+_____
 ## Features and Theme
 
 I have chosen colours that match the brand logo that I have used as the hero image across all pages.
@@ -106,6 +115,8 @@ The site was created in gitpod, and pushed to github to make it publicly accessi
   * git add .
   * git commit -m "Description of updates since last commit"
   * git push
+
+  Then, in Github, select the Repository > Settings > Pages. Then, under "Build and deployment" Select the required branch to publish from the dropdown menu, and Save.
 _____
 
 ## Credits
