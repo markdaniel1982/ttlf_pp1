@@ -27,11 +27,16 @@ _____
 <img src="documentation/images/wireframe_profiles.png" alt="Wireframe Profiles" width="20%" height="20%">
 <img src="documentation/images/wireframe_merch.png" alt="Wireframe Merch" width="20%" height="20%">
 
+* Mobile
+
+<img src="documentation/images/wireframe_mobile.png" alt="Wireframe Mobile" width="20%" height="20%">
+
+
 _____
 ## Features and Theme
 
 I have chosen colours that match the brand logo that I have used as the hero image across all pages.
-I used rgba(212, 39, 193, 1) an added a gradient to transparent for the header, footer and any elements within the pages which can be seen in the images both above and below.
+I used rgba(212, 39, 193, 1). A gradient to transparent was added for the header, footer and any elements within the pages which can be seen in the images in this document.
 
 ### Main Page
 The site lands on a page displaying the brand logo, a short 'about us' section and a gallery of the latest track releases from the label.
