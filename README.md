@@ -4,22 +4,22 @@ Trip the Light Fantastic is a site for information about the digital record labe
 The site is aimed at followers and fans and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases, and also to view and buy branded merchandise from an external webshop (webshop is embedded).
 
 ![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
-
+_____
 ## Key Project Goals
 
-* Site Owner
+### Site Owner
   * To provide information about who we are and what we do.
   * Generate interest as soon as the user lands on the site.
   * To allow users of the site to see a selection of our newest products.
   * To generate income from our products.
 
-* First Time Users
- * To find out who TTLF are and what they do
- * To find it instinctively easy to navigate the site
- * To easily find links to social network accounts to access more content
+### First Time Users
+  * To find out who TTLF are and what they do
+  * To find it instinctively easy to navigate the site
+  * To easily find links to social network accounts to access more content
 
-* Returning Users
- * To keep up-to-date with releases and merchandise
+### Returning Users
+  * To keep up-to-date with releases and merchandise
 
 _____
 
@@ -101,9 +101,7 @@ Mobile
 
 ![Lighthouse Test Result for Mobile](documentation/images/lighthouse_mobile.png) 
 
-The only remaining issue was in the "Best Practices" section, where any errors came from the embedded content, not my code.
 
-![Lighthouse Embedded Content Issue](documentation/images/lighthouse_embedded_content_issue.png)
 ___
 
 ### Errors & Debugging
