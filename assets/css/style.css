@@ -9,7 +9,7 @@
 header {
     font-family: "Roboto Flex", sans-serif;
     text-decoration-color: whitesmoke;
-    background: linear-gradient(180deg, rgba(212, 39, 193, 1) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
+    background: linear-gradient(180deg, rgba(212, 39, 193, 1) 30%, rgba(255, 255, 255, 0) 60%) no-repeat; /* Code Credit - https://www.w3schools.com/css/css3_gradients.asp */
     height: 120px;
     line-height: 60px;
     text-decoration: none;
@@ -98,7 +98,7 @@ header a:visited {
 }
 
 
-/* Code Credit - All Dropdown menu code taken from w3schools and amended for purpose*/
+/* Code Credit - All Dropdown menu code taken from w3schools and amended for purpose - https://www.w3schools.com/howto/howto_js_dropdown.asp*/
 /* Dropdown Button */
 .dropbtn {
     color: black;
@@ -248,7 +248,7 @@ footer {
 
     
 }
-/* Code Credit - Codepen grid tutorial */
+/* Code Credit - Codepen grid tutorial - https://codepen.io/TexV/pen/pwywNW */
 .grid-container {
     
     align-items: center;
