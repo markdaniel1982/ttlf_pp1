@@ -332,9 +332,9 @@ div, h1 {
         display: grid;
         grid-template-columns: repeat(2, 40%);
         /* 2 columns */
-        grid-template-rows: repeat(3, 50%);
+        grid-template-rows: repeat(3, 30%);
         /* 3 rows  */
-        grid-gap: 50px 30px;
+        grid-gap: 30px 30px;
         /* 50 pixels of space added between rows and 30 pixels added between columns  */
         margin-bottom: 120px;
     }
