@@ -44,7 +44,7 @@ header a:visited {
     font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 66px; 
-    height: 165px;  
+    height: 150px;  
     width: 240px;
     margin-top: 1%;
     margin-left: 2%;
@@ -61,12 +61,12 @@ header a:visited {
 }
 
 #email-input {
-    width: 65%;
+    width: 99%;
     border: 1px solid rgba(212, 39, 193, 0.7);
 }
 
 .panel-container h3 {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	letter-spacing: 0.5px;
 }
 
@@ -75,8 +75,8 @@ header a:visited {
 	border-radius: 3px;
 	display: block;
 	font-size: 12px;
-	padding: 7px 10px;
-	margin: 15px 0;
+	padding: 7px 0px;
+	margin: 10px 0;
 	width: 100%;
     
 }
@@ -84,13 +84,13 @@ header a:visited {
 .panel-container button {
 	background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
 	
-	color: #fff;
+	color: black;
 }
 
 .panel-container small {
 	font-size: 0.75em;
 	line-height: 10px;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 .panel-container small:first-of-type {
