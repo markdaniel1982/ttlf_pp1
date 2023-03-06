@@ -198,6 +198,8 @@ a {
     font-family: "Roboto Flex", sans-serif;
     font-weight: bold;
     text-size-adjust: 150%;
+    position: relative;
+    top: 20%;
     height: fit-content;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
     margin-top: 150px;
@@ -298,9 +300,8 @@ div, h1 {
         font-weight: bold;
         text-align: justify;
         height: fit-content;
-        background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.6));
-        position: relative;
-        margin-top: 50px;
+        background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
+        margin-top: 150px;
         margin-bottom: 15px;
     }
 
