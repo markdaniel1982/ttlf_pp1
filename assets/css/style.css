@@ -44,6 +44,7 @@ header a:visited {
     font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 66px; 
+    right: 1%;
     height: 150px;  
     width: 240px;
     margin-top: 1%;
