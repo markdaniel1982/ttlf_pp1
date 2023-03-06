@@ -42,8 +42,9 @@ header a:visited {
 
 #mailing-list {
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    top: -130px;   
+    position: absolute;
+    top: 66px; 
+    height: 165px;  
     width: 240px;
     margin-top: 1%;
     margin-left: 2%;
