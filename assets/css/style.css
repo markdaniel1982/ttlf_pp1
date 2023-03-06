@@ -55,8 +55,7 @@ header a:visited {
 	background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 15%, rgba(255, 255, 255, 0) 100%);
 	border-radius: 15px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-	margin: 16px, 8px;
-    padding-bottom: 5px;
+	padding-bottom: 5px;
     width: 66%;
 }
 
