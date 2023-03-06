@@ -7,16 +7,20 @@ The site is aimed at followers and fans and will allow them to learn more about 
 
 ## Key Project Goals
 
-* As a Company
+* Site Owner
   * To provide information about who we are and what we do.
   * Generate interest as soon as the user lands on the site.
   * To allow users of the site to see a selection of our newest products.
   * To generate income from our products.
 
-* As a designer
-  * To allow users to visit the site from any device and ensure that all content is easily viewed without distraction from other elements or any overlapping content.
-  * To allow users to easily move around the site without having to spend time trying to figure out how to navigate between areas or pages.
-  * To provide relevant information to the user.
+* First Time Users
+ * To find out who TTLF are and what they do
+ * To find it instinctively easy to navigate the site
+ * To easily find links to social network accounts to access more content
+
+* Returning Users
+ * To keep up-to-date with releases and merchandise
+
 _____
 
 ## Wireframes
