@@ -52,7 +52,7 @@ header a:visited {
 }
 
 .panel-container {
-	background-image: linear-gradient(to bottom right, var(--pink1), var(--pink2));
+	background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 15%, rgba(255, 255, 255, 0) 100%);
 	border-radius: 15px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 	margin: 16px, 8px;
@@ -82,7 +82,7 @@ header a:visited {
 }
 
 .panel-container button {
-	background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
+	background-image: linear-gradient(to top, rgba(212, 39, 193, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
 	
 	color: black;
 }
