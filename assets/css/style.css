@@ -272,7 +272,13 @@ img {
     width: 100%;
 }
 
+#merch {
+    font-family: "Roboto Flex", sans-serif;
+    text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
+}
+
 .merch-container {
+    background-color: rgba(255, 255, 255, 0);
     text-align: center;
     align-items: center;
     justify-content: center;
