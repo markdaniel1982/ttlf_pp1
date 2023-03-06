@@ -195,13 +195,14 @@ a {
 
 #about {
     font-family: "Roboto Flex", sans-serif;
+    font-size: larger;
     font-weight: bold;
-    text-size-adjust: 150%;
+    text-size-adjust: 300%;
     position: relative;
-    top: 20%;
+    top: 13%;
     height: fit-content;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
-    margin-top: 150px;
+    margin-top: 100px;
     text-transform: uppercase;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
 }
