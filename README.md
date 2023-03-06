@@ -94,6 +94,9 @@ While running the code through a validty checker, I had included a 'div' inside 
 In my css stylesheet, I had put the incorrect number in an rbga element for transparency. The value of 255 was corrected to 1
 
 Throughout the project, I was checking the responsivity for smaller devices, debugging using devtools in Chrome and adjusting any elements accordingly. The main issue i had was the positioning of the hero text on the home page, which was sitting too low on smaller devices. This was fixed with a media query to reposition the element when viewed on a mobile phone.
+
+#### Unresolved Bugs
+One difficult issue I found was that my background image wasnt showing at all when the site was deployed to github pages. After extensive searching online, the only fix I was able to find that worked, was to change the link in the style sheet so it was pointing externally to the image within my github. Obviously, this is far from ideal. and I will continue to search for a more permanent fix.
 _____
 
 ## Deployment
