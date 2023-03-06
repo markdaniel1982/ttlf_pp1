@@ -161,7 +161,7 @@ a {
 
 #image-container {
     height: 60vh;
-    background-image: url('assets/images/ttlf_logo_purple_blue.png');
+    background-image: url('/assets/images/ttlf_logo_purple_blue.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
