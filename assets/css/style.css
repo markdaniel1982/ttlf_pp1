@@ -177,14 +177,22 @@ a {
     margin-top: 10%;
 }
 
-#image-container {
+#image-container-home {
     height: 80vh;
     background-image: url('https://markdaniel1982.github.io/ttlf_pp1/assets/images/ttlf_logo_purple_blue.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 5%;
-    margin-top: -50px;
+    margin-bottom: 60px;
+    margin-top: 7%;
+}
+
+#bio-heading {
+    font-family: "Do Hyeon", sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
+    position: relative;
+    padding-top: 1px;
 }
 
 .name-buttons {
@@ -297,6 +305,7 @@ img {
 #merch {
     font-family: "Roboto Flex", sans-serif;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
+    margin-top: 180px;
 }
 
 .merch-container {
