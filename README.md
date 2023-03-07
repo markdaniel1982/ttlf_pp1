@@ -124,6 +124,7 @@ The site was created in gitpod, and pushed to github to make it publicly accessi
   * git push
 
   Then, in Github, select the Repository > Settings > Pages. Then, under "Build and deployment" Select the required branch to publish from the dropdown menu, and Save.
+  Once the updates have been pushed from Gitpod, they will show on the deployed page, usually after a minute or two.
 _____
 
 ## Credits
@@ -144,6 +145,6 @@ _____
 
 ### Fonts and Icons 
  
- * Fonts from Google fonts
+* Fonts from Google fonts
 
 * Icons from Fontawesome
