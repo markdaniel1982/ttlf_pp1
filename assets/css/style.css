@@ -73,10 +73,12 @@ a:visited #dropdown-menu {
 }
 
 .panel-container input, .panel-container button {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
 	border: none;
 	border-radius: 10px;
 	display: block;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 8px 0px;
     padding-left: 6px;
 	margin: 10px 0;
