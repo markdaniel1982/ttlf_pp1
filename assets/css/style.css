@@ -82,7 +82,7 @@ header a:visited {
 }
 
 .panel-container button {
-	background-image: linear-gradient(to top, rgba(212, 39, 193, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
+	background-image: linear-gradient(to top, rgba(212, 39, 193, 0.7) 20%, rgba(255, 255, 255, 0) 100%);
 	
 	color: black;
 }
