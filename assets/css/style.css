@@ -136,7 +136,7 @@ a:visited #dropdown-menu {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #e7aae7;
+    background-color: #915391;
 }
 
 /* Show the dropdown menu on hover */
@@ -153,8 +153,9 @@ a:visited #dropdown-menu {
 /* Main body  */
 
 a:hover {
-    color: #a138a1;
+    color: #663066;
     text-decoration: underline;
+    font-size: large;
 }
 
 a {
@@ -314,7 +315,7 @@ img {
     font-size: larger;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
     margin-top: 140px;
-    background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
+    background: linear-gradient(0deg, rgba(212, 39, 193, 0.9) 50%, rgba(212, 39, 193, 0) 100%) no-repeat;
 }
 
 .merch-container {
