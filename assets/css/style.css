@@ -45,7 +45,7 @@ header a:visited {
     font-family: 'Roboto', sans-serif;
     height: 150px;  
     width: 240px;
-    margin: 20px 0 6% 1%;
+    margin: 20px 0 15% 1%;
     padding: 1%;
     text-decoration: none;
 }
@@ -254,7 +254,9 @@ footer {
 
 footer {
     font-family: "Do Hyeon", sans-serif;
-    color: whitesmoke;
+    color: black;
+    font-size: larger;
+    letter-spacing: 1px;
     background: linear-gradient(0deg, rgba(212, 39, 193, 1) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
     position: fixed;
     height: 120px;
@@ -264,7 +266,7 @@ footer {
     width: 100%;
     margin-top: auto;
     z-index: 1;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 2px #FF0000, 0 0 4px #0000FF;
 }
 
 #latest-releases >  h1 {
@@ -286,7 +288,7 @@ footer {
 /* Code Credit - Codepen grid tutorial - https://codepen.io/TexV/pen/pwywNW */
 .grid-container {
     align-items: center;
-    background-color: rgba(0, 0, 0, 0);
+    
     justify-content: center;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
     display: grid;
@@ -350,7 +352,9 @@ h1 {
         padding: 20px;
     }
 
-
+    #mailing-list {
+        margin-bottom: 20%;
+    }
  
     footer {
         font-size: small;
