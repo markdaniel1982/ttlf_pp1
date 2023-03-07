@@ -188,7 +188,7 @@ a {
     text-align: center;
     background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
     position: relative;
-    left: 36%;
+    left: 26%;
     top: -12px;
     line-height: 50px;
     padding-top: 7px;
@@ -339,7 +339,7 @@ h1 {
 } 
 
 /* Code Credit - initially from Love Running Project, amended for purpose*/
-@media screen and (max-width: 916px) {
+@media screen and (max-width: 915px) {
     #socials {
         font-size: larger;
     }
