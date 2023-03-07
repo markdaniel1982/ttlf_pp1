@@ -188,8 +188,8 @@ a {
     text-align: center;
     background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
     position: relative;
-    left: 26%;
-    top: -12px;
+    left: 36%;
+    top: -36px;
     line-height: 50px;
     padding-top: 7px;
     width: 350px;
@@ -369,8 +369,13 @@ h1 {
         background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
         margin-bottom: 0px;
         margin-top: 150px;
-        
     }
+
+    #bios > h1 {
+        left: 27%;
+        top: 20px;
+    }
+
 
     .grid-container {
         text-align: center;
@@ -391,5 +396,14 @@ h1 {
         grid-template-columns: repeat(2, 40%);
         padding-bottom: 25%;
         grid-gap: 50px 30px;    
+    }
+}
+@media screen and (max-width: 420px) {
+    
+    #bios > h1 {
+        left: 14%;
+        width: 284px;
+        display: flex;
+        top: 10px;
     }
 }
