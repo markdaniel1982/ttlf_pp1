@@ -14,6 +14,7 @@ header {
     line-height: 60px;
     text-decoration: none;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin-bottom: -150px;
 }
 
 #menu-icon {
@@ -42,14 +43,20 @@ header a:visited {
 
 #mailing-list {
     font-family: 'Roboto', sans-serif;
-    position: absolute;
+    /* position: absolute;
     top: 66px; 
-    right: 1%;
+    right: 1%; */
     height: 150px;  
     width: 240px;
-    margin-top: 1%;
-    margin-left: 2%;
+    margin: 20px 0 6% 1%;
+    /* margin-top: 1%;
+    margin-left: 2%; */
     padding: 1%;
+    text-decoration: none;
+}
+
+a:visited #dropdown-menu {
+    text-decoration: none;
 }
 
 .panel-container {
@@ -61,7 +68,7 @@ header a:visited {
 }
 
 #email-input {
-    width: 99%;
+    width: 96%;
     border: 1px solid rgba(212, 39, 193, 0.7);
 }
 
@@ -75,13 +82,14 @@ header a:visited {
 	border-radius: 10px;
 	display: block;
 	font-size: 12px;
-	padding: 7px 0px;
+	padding: 8px 0px;
+    padding-left: 6px;
 	margin: 10px 0;
 	width: 100%;
     
 }
 
-.panel-container button {
+.panel-container #submit {
 	background-image: linear-gradient(to top, rgba(212, 39, 193, 0.7) 20%, rgba(255, 255, 255, 0) 100%);
 	
 	color: black;
@@ -159,15 +167,25 @@ a {
     color: black;
 }
 
-#image-container {
-    height: 60vh;
+#image-container-profiles {
+    height: 80vh;
     background-image: url('https://markdaniel1982.github.io/ttlf_pp1/assets/images/ttlf_logo_purple_blue.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    margin-top: 10%;
 }
 
+#image-container {
+    height: 80vh;
+    background-image: url('https://markdaniel1982.github.io/ttlf_pp1/assets/images/ttlf_logo_purple_blue.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 5%;
+    margin-top: -50px;
+}
 
 .name-buttons {
     font-family: "Do Hyeon", sans-serif;
@@ -196,11 +214,11 @@ a {
 
 #about {
     font-family: "Roboto Flex", sans-serif;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bold;
-    text-size-adjust: 300%;
+    /* text-size-adjust: 300%; */
     position: relative;
-    top: 13%;
+    top: 11%;
     height: fit-content;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
     margin-top: 100px;
@@ -209,8 +227,9 @@ a {
 }
 
 .who-are-we {
-    min-height: 15px;
-    text-align: center;
+    /* min-height: 15px;
+    text-align: center; */
+    letter-spacing: 1.5px;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -243,16 +262,18 @@ footer {
 
 #latest-releases {
     font-family: "Roboto Flex", sans-serif;
+    font-size: large;
+    letter-spacing: 1.5px;
     text-align: center;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
-    padding-bottom: 150px;
+    padding-bottom: 80px;
 
     
 }
 /* Code Credit - Codepen grid tutorial - https://codepen.io/TexV/pen/pwywNW */
 .grid-container {
-    
     align-items: center;
+    background-color: rgba(0, 0, 0, 0);
     justify-content: center;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
     display: grid;
@@ -291,7 +312,7 @@ img {
 }
 
 div, h1 {
-    
+    font-family: "Roboto Flex", sans-serif;
     text-align: center;
 }
 
@@ -305,11 +326,12 @@ div, h1 {
     #about {
         font-family: "Roboto Flex", sans-serif;
         font-weight: bold;
-        text-align: justify;
+        text-align: center;
         height: fit-content;
         background-image: linear-gradient(to top, rgba(212, 39, 193, 0.6), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
         margin-top: 150px;
         margin-bottom: 15px;
+        padding: 20px;
     }
 
 
@@ -322,7 +344,7 @@ div, h1 {
         font-family: "Roboto Flex", sans-serif;
         text-align: center;
         background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
-        padding-bottom: 500px;
+        /* padding-bottom: 500px; */
         margin-bottom: 0px;
         
     }

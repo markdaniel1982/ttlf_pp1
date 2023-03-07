@@ -23,6 +23,7 @@
                 <a href="index.html" class="active" aria-label="Click here to go to the homepage">Home</a>
                 <a href="profiles.html" aria-label="Click here to read more about us">DJ Profiles</a>
                 <a href="merch.html" aria-label="Click here to visit our merch store">Merch</a>
+                <a href="#mailing-list" aria-label="Click here to sign up to our mailing list">Mailing List</a>
             </div>
         </div>
         <div id="socials">
@@ -36,20 +37,7 @@
                 aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </header>
-    <div id="mailing-list" class="panel-container" aria-label="Sign up to our mailing list">
-        <small>
-            Sign up to our mailing list!
-        </small>
-        <form action="mailto:tripthelightfantasticttlf@gmail.com" body="Please add me to the mailing list" method="email" enctype="text/plain" value="Please add me to the mailing list" class="mailing-list">
-        <h3>
-            Stay up to date with our forthcoming releases
-        </h3>
-        <input type="email" placeholder="Email address" id="email-input" aria-label="Type your email address here">
-        <!-- <input type="submit" value="Sign Me Up!"></input> -->
-        <button aria-label="Click here to sign up">Sign Me Up</button>
-    </form>
-
-    </div>
+    
     <div id="image-container">
         <div id="bg" aria-label="TTLF Logo">
         </div>
@@ -108,7 +96,19 @@
             </div>
         </div>
     </div>
+    <div id="mailing-list" class="panel-container" aria-label="Sign up to our mailing list">
+        <small>
+            Sign up to our mailing list!
+        </small>
+        <form action="https://mailinglist.ttlf.net" method="post" enctype="text/plain" class="mailing-list">
+        <h3>
+            Stay up to date with our forthcoming releases
+        </h3>
+        <input type="email" placeholder="Email address" id="email-input" aria-label="Type your email address here" required>
+        <input type="submit" aria-label="Click here to sign up" value="Sign Me Up" id="submit"></input>
+    </form>
 
+    </div>
     <footer>
         <div id="copyright" aria-label="Copyright 2023 TTLF"><i class="fa-sharp fa-regular fa-copyright"></i> 2023 Trip the Light
             Fantastic</div>
