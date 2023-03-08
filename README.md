@@ -76,7 +76,7 @@ On this page, there is biography information to tell the reader more about the c
 
 Here I have included another grid view, similar to the "Latest Releases" on the homepage, where several different items are shown with pictures and a brief description of the item. All pictures are links which take you to the merchandise store where branded clothing items can be purchased
 
-
+All pages follow the same, or very similar styling rules where the colours and fonts used match throughout.
 _____
 
 ## Testing
@@ -97,7 +97,7 @@ Errors found:
 
 ### Responsivity
 
-All pages have been regularly checked for any responsivity issues throughout the project, to ensure that all required elements were responsive to allow them to be clearly seen on all devices. Any issues were found and debugged using the devtools in the Chrome browser.
+All pages have been regularly checked for any responsivity issues throughout the project to ensure that all required elements were responsive to allow them to be clearly seen on all devices. Any issues were found and debugged using the devtools in the Chrome browser. One of the main issues I had was items overlapping on the home page when viewed on smaller devices. This was fixed using Chrome Devtools to diagnose the problem, and then implimented in the relevant code.
 
 ### Lighthouse
 After lighthouse testing, It showed that I needed to add an aria-label to the dropdown menu button.
