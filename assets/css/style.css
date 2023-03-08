@@ -56,10 +56,6 @@ header a:visited {
     text-decoration: none;
 }
 
-a:visited #dropdown-menu {
-    text-decoration: none;
-}
-
 .panel-container {
     background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 15%, rgba(255, 255, 255, 0) 100%);
     border-radius: 15px;
@@ -153,6 +149,10 @@ a:visited #dropdown-menu {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: rgba(0, 0, 0, 0);
+}
+
+a:visited #dropdown-menu {
+    text-decoration: none;
 }
 
 /* Main body  */
