@@ -163,7 +163,8 @@ a:visited #dropdown-menu {
 a:hover {
     color: #663066;
     text-decoration: underline;
-    font-size: large;
+    text-shadow: none;
+    /* font-size: large; */
 }
 
 a {
