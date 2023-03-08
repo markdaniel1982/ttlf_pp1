@@ -82,8 +82,9 @@ _____
 ## Testing
 ### HTML
 All pages have passed through an HTML validator any any errors have been corrected
-Errors found:
-* 1 unclosed dev element on Merch page. this was fixed and when the checker was run again, there were no errors.
+Errors fixed:
+* 1 unclosed div element on Merch page.
+
 
 ![HTML Validation](documentation/images/html_validation.png "HTML Validation")
 
