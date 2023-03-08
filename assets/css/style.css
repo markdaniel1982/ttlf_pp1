@@ -107,6 +107,14 @@ a {
 
 /* Main body  */
 
+h1 {
+    font-family: "Roboto Flex", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 2%;
+}
+
 #image-container-home {
     height: 80vh;
     background-image: url('https://markdaniel1982.github.io/ttlf_pp1/assets/images/ttlf_logo_purple_blue.png');
@@ -196,74 +204,6 @@ footer {
     z-index: 1
 }
 
-/* Mailing list Signup Form
-/* Code Credit - w3schools - https://www.w3schools.com/howto/howto_css_newsletter.asp */
-/*  #mailing-list {
-    font-family: 'Roboto', sans-serif;
-    height: 150px;
-    width: 240px;
-    margin: 20px 0 15% 1%;
-    padding: 1%;
-    text-decoration: none;
-}
-
-.panel-container {
-    background-image: linear-gradient(to bottom, rgba(212, 39, 193, 0.7) 15%, rgba(255, 255, 255, 0) 100%);
-    border-radius: 15px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    padding-bottom: 5px;
-    width: 66%;
-}
-
-#email-input {
-    width: 96%;
-    border: 1px solid rgba(212, 39, 193, 0.7);
-}
-
-.panel-container h3 {
-    margin-bottom: 15px;
-    letter-spacing: 0.5px;
-}
-
-.panel-container input,
-.panel-container button {
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    display: block;
-    font-size: 14px;
-    padding: 8px 0;
-    padding-left: 6px;
-    margin: 10px 0;
-    width: 100%;
-}
-
-.panel-container #submit {
-    background-image: linear-gradient(to top, rgba(212, 39, 193, 0.7) 20%, rgba(255, 255, 255, 0) 100%);
-    color: black;
-}
-
-.panel-container small {
-    font-size: 0.75em;
-    line-height: 10px;
-    opacity: 0.8;
-}
-
-.panel-container small:first-of-type {
-    text-transform: uppercase;
-}
-
-#submit:visited {
-    color: rgb(187, 187, 187);
-}
-
-#mailing-list-link {
-    position: relative;
-    left: 10%;
-    top: -20px;
-} */
-
 
 #latest-releases>h1 {
     text-align: center;
@@ -339,14 +279,6 @@ footer {
     grid-template-columns: repeat(3, 25%);
     padding-bottom: 25%;
     gap: 50px 30px;
-}
-
-h1 {
-    font-family: "Roboto Flex", sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1.5px;
-    padding: 2%;
 }
 
 /* Code Credit - initially from Love Running Project, amended for purpose*/
