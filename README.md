@@ -1,6 +1,6 @@
 # Trip the Light Fantastic
 
-Trip the Light Fantastic is a site for information about the digital record label run by 4 knowledgable and enthusiastic friends from the Midlands, UK. 
+Trip the Light Fantastic is a site for information about the digital record label based in Midlands, UK. 
 The site is aimed at both new and returning visitor and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases and a gallery of merchandise with links to buy items.
 
 ![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
