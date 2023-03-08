@@ -29,22 +29,22 @@ _____
 
 * Mobile
 
-<img src="documentation/images/wireframe_mobile.png" alt="Wireframe Mobile" width="20%" height="20%">
+<img src="documentation/images/wireframe_mobile.png" alt="Wireframe Mobile" width="50%" height="50%">
 
 
 * Tablet
 
-<img src="documentation/images/wireframe_tablet_home.png" alt="Wireframe Tablet Index" width="20%" height="20%">
-<img src="documentation/images/wireframe_tablet_profiles.png" alt="Wireframe Tablet Profiles" width="20%" height="20%">
-<img src="documentation/images/wireframe_tablet_merch.png" alt="Wireframe Tablet Merch" width="20%" height="20%">
+<img src="documentation/images/wireframe_tablet_home.png" alt="Wireframe Tablet Index" width="50%" height="50%">
+<img src="documentation/images/wireframe_tablet_profiles.png" alt="Wireframe Tablet Profiles" width="50%" height="50%">
+<img src="documentation/images/wireframe_tablet_merch.png" alt="Wireframe Tablet Merch" width="50%" height="50%">
 
 
 
 * Desktop
 
-<img src="documentation/images/wireframe_index.png" alt="Wireframe Index" width="20%" height="20%">
-<img src="documentation/images/wireframe_profiles.png" alt="Wireframe Profiles" width="20%" height="20%">
-<img src="documentation/images/wireframe_merch.png" alt="Wireframe Merch" width="20%" height="20%">
+<img src="documentation/images/wireframe_index.png" alt="Wireframe Index" width="50%" height="50%">
+<img src="documentation/images/wireframe_profiles.png" alt="Wireframe Profiles" width="50%" height="50%">
+<img src="documentation/images/wireframe_merch.png" alt="Wireframe Merch" width="50%" height="50%">
 
 _____
 ## Design, Features and Theme
