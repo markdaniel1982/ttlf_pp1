@@ -25,21 +25,29 @@ _____
 
 ## Wireframes
 
+* Mobile
+
+<img src="documentation/images/wireframe_mobile.png" alt="Wireframe Mobile" width="20%" height="20%">
+
+
+* Tablet
+
+<img src="documentation/images/wireframe_tablet_home.png" alt="Wireframe Tablet Index" width="20%" height="20%">
+<img src="documentation/images/wireframe_tablet_profiles.png" alt="Wireframe Tablet Profiles" width="20%" height="20%">
+<img src="documentation/images/wireframe_tablet_merch.png" alt="Wireframe Tablet Merch" width="20%" height="20%">
+
+
+
 * Desktop
 
 <img src="documentation/images/wireframe_index.png" alt="Wireframe Index" width="20%" height="20%">
 <img src="documentation/images/wireframe_profiles.png" alt="Wireframe Profiles" width="20%" height="20%">
 <img src="documentation/images/wireframe_merch.png" alt="Wireframe Merch" width="20%" height="20%">
 
-* Mobile
-
-<img src="documentation/images/wireframe_mobile.png" alt="Wireframe Mobile" width="20%" height="20%">
-
-
 _____
 ## Features and Theme
 
-I have chosen colours that match the brand logo that I have used as the hero image across all pages.
+I have chosen colours that match the brand logo that I have used as the hero image across both the main landing page and the DJ profiles page. I have not included it on the merch page as the .
 I used rgba(212, 39, 193, 1). A gradient to transparent was added for the header, footer and any elements within the pages which can be seen in the images in this document.
 
 ### Main Page
@@ -50,6 +58,8 @@ The site lands on a page displaying the brand logo, a short 'about us' section a
 * Navigation and header
 
 There is a hamburger menu which opens to display links to the pages contained within the site (DJ profiles & merch store). This is displayed across all 3 pages to allow for easier, more intuitive navigation.
+
+On the home page there is a link to join a mailing list (not currently functional IRL as the brand does not have one set up yet) which, when clicked will take you to the bottom of the home page where you can enter an email address and submit via the "Sign me up" button
 
   * Latest Releases:
 
@@ -62,9 +72,8 @@ On this page, there is biography information to tell the reader more about the c
 
 ### Merchandise
 
-Here I have included an embedded version of the merchandise store where the reader can browse and purchase branded clothing items
+Here I have included another grid view, similar to the "Latest Releases" on the homepage, where several different items are shown with pictures and a brief description of the item. All pictures are links which take you to the merchandise store where branded clothing items can be purchased
 
-All pages are responsive when viewed on smaller devices, where the content resized to fit the screen and improve viewability.
 
 _____
 
@@ -86,12 +95,10 @@ Errors found:
 
 ### Responsivity
 
-Through the project, I regularly checked that any required elements were responsive to allow them to be clearly seen on all devices.
-
-Any issues were found and debugged using the devtools in the Chrome browser.
+All pages have been regularly checked for any responsivity issues throughout the project, to ensure that all required elements were responsive to allow them to be clearly seen on all devices. Any issues were found and debugged using the devtools in the Chrome browser.
 
 ### Lighthouse
-After lighthouse testing, It showed that I needed to add an aria-label to the dropdown menu button. After adding, the lighthouse test was much better. 
+After lighthouse testing, It showed that I needed to add an aria-label to the dropdown menu button.
 
 Desktop
 
