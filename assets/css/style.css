@@ -350,7 +350,7 @@ h1 {
 }
 
 /* Code Credit - initially from Love Running Project, amended for purpose*/
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 916px) {
     #socials {
         font-size: larger;
     }
@@ -379,7 +379,7 @@ h1 {
         text-align: center;
         background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
         margin-bottom: 0px;
-        margin-top: 170px;
+        margin-top: 150px;
     }
 
     #bios>h1 {
@@ -409,14 +409,14 @@ h1 {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
 
     #latest-releases {
         font-family: "Roboto Flex", sans-serif;
         text-align: center;
         background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
         margin-bottom: 0px;
-        margin-top: 100px;
+        margin-top: -140px;
     }
 
     #bios>h1 {
