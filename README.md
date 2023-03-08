@@ -1,11 +1,11 @@
 # Trip the Light Fantastic
 
 Trip the Light Fantastic is a site for information about the digital record label run by 4 knowledgable and enthusiastic friends from the Midlands, UK. 
-The site is aimed at followers and fans and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases and a gallery of merchandise.
+The site is aimed at both new and returning visitor and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases and a gallery of merchandise with links to buy items.
 
 ![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
 
-[View TTLF on Github Pages](https://markdaniel1982.github.io/ttlf_pp1/index.html)
+[View live page on Github Pages](https://markdaniel1982.github.io/ttlf_pp1/index.html)
 _____
 ## Key Project Goals
 
@@ -16,7 +16,7 @@ _____
   * To generate income from our products.
 
 ### First Time Users
-  * To find out who TTLF are and what they do
+  * To find out who we are and what we do
   * To find it instinctively easy to navigate the site
   * To easily find links to social network accounts to access more content
 
@@ -37,7 +37,6 @@ _____
 <img src="documentation/images/wireframe_tablet_home.png" alt="Wireframe Tablet Index" width="50%" height="50%">
 <img src="documentation/images/wireframe_tablet_profiles.png" alt="Wireframe Tablet Profiles" width="50%" height="50%">
 <img src="documentation/images/wireframe_tablet_merch.png" alt="Wireframe Tablet Merch" width="50%" height="50%">
-
 
 
 * Desktop
@@ -61,11 +60,12 @@ The site lands on a page displaying the brand logo, a short 'about us' section a
 
 There is a hamburger menu which opens to display links to the pages contained within the site (DJ profiles & merch store). This is displayed across all 3 pages to allow for easier, more intuitive navigation.
 
-On the home page there is a link to join a mailing list (not currently functional IRL as the brand does not have one set up yet) which, when clicked will take you to the bottom of the home page where you can enter an email address and submit via the "Sign me up" button
 
   * Latest Releases:
 
 As you scroll down the page, there is a grid view showing the music that has most recently been released by the label, which can be purchased by clicking the link to go to an external site [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/).
+
+Below the latest releases, there is a form to join a mailing list where you can enter an email address and submit via the "Sign me up" button (This is currently not live IRL as the brand does not currently have a mailing list, but for the purposes of this project, I wanted to include it as a demonstration)
 
 
 ### DJ Profiles
