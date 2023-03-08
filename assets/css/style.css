@@ -16,6 +16,7 @@ header {
     text-decoration: none;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     margin-bottom: -150px;
+    z-index: ;
 }
 
 #menu-icon {
@@ -29,7 +30,6 @@ header {
     top: 0;
     letter-spacing: 10px;
     font-size: xx-large;
-
 }
 
 #mailing-list-link {
@@ -91,12 +91,10 @@ a:visited #dropdown-menu {
     padding-left: 6px;
     margin: 10px 0;
     width: 100%;
-
 }
 
 .panel-container #submit {
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.7) 20%, rgba(255, 255, 255, 0) 100%);
-
     color: black;
 }
 
@@ -109,7 +107,6 @@ a:visited #dropdown-menu {
 .panel-container small:first-of-type {
     text-transform: uppercase;
 }
-
 
 /* Code Credit - All Dropdown menu code taken from w3schools and amended for purpose - https://www.w3schools.com/howto/howto_js_dropdown.asp*/
 /* Dropdown Button */
@@ -159,9 +156,7 @@ a:visited #dropdown-menu {
     background-color: rgba(0, 0, 0, 0);
 }
 
-
 /* Main body  */
-
 a:hover {
     color: #663066;
     text-decoration: underline;
@@ -238,7 +233,6 @@ a {
 #about {
     font-family: "Roboto Flex", sans-serif;
     font-size: x-large;
-
     position: relative;
     top: 11%;
     height: fit-content;
@@ -249,7 +243,6 @@ a {
 }
 
 .who-are-we {
-
     text-align: center;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -257,11 +250,11 @@ a {
     padding-bottom: 2%;
 }
 
-header,
+/* header,
 footer {
     position: relative;
     z-index: 1
-}
+} */
 
 footer {
     font-family: "Do Hyeon", sans-serif;
@@ -269,15 +262,21 @@ footer {
     font-size: larger;
     letter-spacing: 1px;
     background: linear-gradient(0deg, rgba(212, 39, 193, 1) 30%, rgba(255, 255, 255, 0) 60%) no-repeat;
-    position: fixed;
+    /* position: fixed; */
+    margin-bottom: 0;
     height: 120px;
-    line-height: 180px;
+    /* line-height: 180px; */
     text-align: center;
     bottom: 0;
     width: 100%;
     margin-top: auto;
     z-index: 1;
     text-shadow: 0 0 2px #FF0000, 0 0 4px #0000FF;
+}
+
+#copyright {
+    position: relative;
+    bottom: -80px;
 }
 
 #latest-releases>h1 {
@@ -293,24 +292,18 @@ footer {
     text-align: center;
     background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
     padding-bottom: 80px;
-
-
 }
 
 /* Code Credit - Codepen grid tutorial - https://codepen.io/TexV/pen/pwywNW */
 .grid-container {
     align-items: center;
-
     justify-content: center;
     text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff;
     display: grid;
     grid-template-columns: repeat(3, 25%);
-    /* 3 columns */
     grid-template-rows: repeat(2, 50%);
-    /* 2 rows  */
     gap: 50px 30px;
     /* 50 pixels of space added between rows and 30 pixels added between columns  */
-
 }
 
 .grid-item {
@@ -387,7 +380,6 @@ h1 {
         top: 20px;
     }
 
-
     .grid-container {
         text-align: center;
         align-items: center;
@@ -435,5 +427,4 @@ h1 {
         line-height: 21px;
         z-index: -1;
     }
-
 }
