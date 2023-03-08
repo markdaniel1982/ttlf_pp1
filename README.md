@@ -23,7 +23,7 @@ _____
 ### Returning Users
   * To keep up-to-date with, or to buy releases and merchandise 
 
-_____
+_______
 
 ## Wireframes
 
@@ -31,6 +31,7 @@ _____
 
 <img src="documentation/images/wireframe_mobile.png" alt="Wireframe Mobile" width="50%" height="50%">
 
+___
 
 * Tablet
 
@@ -38,6 +39,7 @@ _____
 <img src="documentation/images/wireframe_tablet_profiles.png" alt="Wireframe Tablet Profiles" width="50%" height="50%">
 <img src="documentation/images/wireframe_tablet_merch.png" alt="Wireframe Tablet Merch" width="50%" height="50%">
 
+___
 
 * Desktop
 
@@ -45,7 +47,7 @@ _____
 <img src="documentation/images/wireframe_profiles.png" alt="Wireframe Profiles" width="50%" height="50%">
 <img src="documentation/images/wireframe_merch.png" alt="Wireframe Merch" width="50%" height="50%">
 
-_____
+_______
 ## Design, Features and Theme
 
 I have chosen colours that match the brand logo that I have used as the hero image across both the main landing page and the DJ profiles page. I have not included it on the merch page as the grid container covered the image, making it a redundant element on that page.
@@ -60,19 +62,22 @@ The site lands on a page displaying the brand logo, a short 'about us' section a
 
 There is a hamburger menu which opens to display links to the pages contained within the site (DJ profiles & merch store). This is displayed across all 3 pages to allow for easier, more intuitive navigation.
 
+* 'Who Are We'
+ 
+ A short paragraph with an introduction to the label
 
-  * Latest Releases:
+* Latest Releases:
 
 As you scroll down the page, there is a grid view showing the music that has most recently been released by the label, which can be purchased by clicking the link to go to an external site [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/).
 
 Below the latest releases, there is a form to join a mailing list where you can enter an email address and submit via the "Sign me up" button (This is currently not live IRL as the brand does not currently have a mailing list, but for the purposes of this project, I wanted to include it as a demonstration)
 
 
-### DJ Profiles
+## DJ Profiles
 
 On this page, there is a short text about each of the 4 owners to tell the reader more about their backgrounds. 
 
-### Merchandise
+## Merchandise
 
 Here I have included another grid view, similar to the "Latest Releases" on the homepage, where several different items are shown with pictures and a brief description of the item. All pictures are links which take you to the merchandise store where branded clothing items can be purchased
 
@@ -82,30 +87,25 @@ _____
 ## Testing
 ### HTML
 All pages have passed through an HTML validator any any errors have been corrected
-Errors fixed:
-* 1 unclosed div element on Merch page.
-
 
 ![HTML Validation](documentation/images/html_validation.png "HTML Validation")
 
 
 ### CSS
-The css has also been passed through a validator and 1 error has been corrected.
-Errors found:
-* Padding-left on the media query for smaller devices was not needed. this has been removed.
+The css has also been passed through a validator
 
 ![CSS Validation](documentation/images/css_validation.png "CSS Validation")
 
 ### Responsivity
 
-All pages have been regularly checked for any responsivity issues throughout the project to ensure that all required elements were responsive to allow them to be clearly seen on all devices. Any issues were found and debugged using the devtools in the Chrome browser. One of the main issues I had was items overlapping on the home page when viewed on smaller devices. This was fixed using Chrome Devtools to diagnose the problem, and then implimented in the relevant code.
+All pages have been regularly checked for any responsivity issues throughout the project to ensure that all required elements were responsive to allow them to be clearly seen on all devices. Any issues were found and debugged using the devtools in the Chrome browser. One of the main issues I had was items overlapping on the home page when viewed on smaller devices. This was fixed using Chrome Devtools to diagnose the problem, usually with position, margins or padding, and then implimented in the relevant code.
 
 ### Lighthouse
-Desktop
+* Desktop
 
 ![Lighthouse Test Result for Desktop](documentation/images/lighthouse_desktop.png)
 
-Mobile
+* Mobile
 
 ![Lighthouse Test Result for Mobile](documentation/images/lighthouse_mobile.png) 
 
@@ -145,9 +145,9 @@ _____
 
 ### Content & Media
 
-* Content included in the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) and from the TTLF logo pack which was provided to me from the label owners.
+* Content included in the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) and from the TTLF logo pack which was sent to me by the label owners.
 
-* Content and images from latest releases section on homepage has been taken from [toolbox digital shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
+* Content and images from latest releases section on homepage has been taken from [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
 
 ### Fonts and Icons 
  
