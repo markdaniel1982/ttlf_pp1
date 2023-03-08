@@ -407,6 +407,14 @@ h1 {
 
 @media screen and (max-width: 420px) {
     
+    #latest-releases {
+        font-family: "Roboto Flex", sans-serif;
+        text-align: center;
+        background-image: linear-gradient(to top, rgba(212, 39, 193, 0.8), rgba(212, 39, 193, 0.2), rgba(212, 39, 193, 0.8));
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+
     #bios > h1 {
         left: 14%;
         width: 284px;
@@ -415,12 +423,13 @@ h1 {
     }
 
     #mailing-list-link {
-        position: fixed;
-        left: 33%;
-        top: 100px;
+        position: absolute;
+        left: 45%;
+        top: 92px;
         width: 143px;
         text-align: center;
-        line-height: 15px;
+        line-height: 21px;
+        z-index: -1;
     }
 
 }
