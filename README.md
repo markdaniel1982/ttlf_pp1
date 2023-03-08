@@ -141,8 +141,6 @@ _____
 
 * Code and Styling for the dropdown menu taken from [w3schools Hoverable Dropdown Menu](https://www.w3schools.com/css/css_dropdowns.asp) and amended to suit my requirements.
 
-* Code and Styling for mailing list sign up section taken from [w3schools CSS Newsletter](https://www.w3schools.com/howto/howto_css_newsletter.asp) and amended to suit my requirements
-
 ### Content & Media
 
 * Content included in the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) and from the TTLF logo pack which was sent to me by the label owners.
