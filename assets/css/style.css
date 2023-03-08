@@ -196,9 +196,9 @@ footer {
     z-index: 1
 }
 
-/* Mailing list Signup Form*/
+/* Mailing list Signup Form
 /* Code Credit - w3schools - https://www.w3schools.com/howto/howto_css_newsletter.asp */
-#mailing-list {
+/*  #mailing-list {
     font-family: 'Roboto', sans-serif;
     height: 150px;
     width: 240px;
@@ -254,11 +254,15 @@ footer {
     text-transform: uppercase;
 }
 
+#submit:visited {
+    color: rgb(187, 187, 187);
+}
+
 #mailing-list-link {
     position: relative;
     left: 10%;
     top: -20px;
-}
+} */
 
 
 #latest-releases>h1 {
@@ -285,7 +289,7 @@ footer {
     grid-template-columns: repeat(3, 25%);
     grid-template-rows: repeat(2, 50%);
     gap: 50px 30px;
-    /* 50 pixels of space added between rows and 30 pixels added between columns  */
+    margin-bottom: 100px;
 }
 
 .grid-item {
