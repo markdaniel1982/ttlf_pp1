@@ -1,7 +1,7 @@
 # Trip the Light Fantastic
 
 Trip the Light Fantastic is a site for information about the digital record label based in Midlands, UK. 
-The site is aimed at both new and returning visitor and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases and a gallery of merchandise with links to buy items.
+The site is aimed at both new and returning visitors and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases and a gallery of merchandise with links to buy items.
 
 ![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
 
@@ -49,7 +49,7 @@ _____
 ## Design, Features and Theme
 
 I have chosen colours that match the brand logo that I have used as the hero image across both the main landing page and the DJ profiles page. I have not included it on the merch page as the grid container covered the image, making it a redundant element on that page.
-I used rgba(212, 39, 193, 1). A gradient to transparent was added for the header, footer and any elements within the pages which can be seen in the images in this document.
+The colour used is rgba(212, 39, 193, 1). A gradient to transparent was added for the header, footer and any elements within the pages.
 
 ### Main Page
 The site lands on a page displaying the brand logo, a short 'about us' section and a gallery of the latest track releases from the label.
@@ -70,13 +70,13 @@ Below the latest releases, there is a form to join a mailing list where you can 
 
 ### DJ Profiles
 
-On this page, there is biography information to tell the reader more about the co-founders of the record label. The styling follows from the home page to create or more fluid user experience.
+On this page, there is a short text about each of the 4 owners to tell the reader more about their backgrounds. 
 
 ### Merchandise
 
 Here I have included another grid view, similar to the "Latest Releases" on the homepage, where several different items are shown with pictures and a brief description of the item. All pictures are links which take you to the merchandise store where branded clothing items can be purchased
 
-All pages follow the same, or very similar styling rules where the colours and fonts used match throughout.
+All pages follow the same styling rules where the colours and fonts used match throughout.
 _____
 
 ## Testing
@@ -101,8 +101,6 @@ Errors found:
 All pages have been regularly checked for any responsivity issues throughout the project to ensure that all required elements were responsive to allow them to be clearly seen on all devices. Any issues were found and debugged using the devtools in the Chrome browser. One of the main issues I had was items overlapping on the home page when viewed on smaller devices. This was fixed using Chrome Devtools to diagnose the problem, and then implimented in the relevant code.
 
 ### Lighthouse
-After lighthouse testing, It showed that I needed to add an aria-label to the dropdown menu button.
-
 Desktop
 
 ![Lighthouse Test Result for Desktop](documentation/images/lighthouse_desktop.png)
@@ -115,10 +113,6 @@ Mobile
 ___
 
 ### Errors & Debugging
-While running the code through a validty checker, I had included a 'div' inside an 'h2' element on the profiles page. All instances were corrected and there are no longer any errors
-
-In my css stylesheet, I had put the incorrect number in an rbga element for transparency. The value of 255 was corrected to 1
-
 Throughout the project, I was checking the responsivity for smaller devices, debugging using devtools in Chrome and adjusting any elements accordingly. The main issue i had was the positioning of the hero text on the home page, which was sitting too low on smaller devices. This was fixed with a media query to reposition the element when viewed on a mobile phone.
 
 #### Unresolved Bugs
@@ -158,5 +152,4 @@ _____
 ### Fonts and Icons 
  
 * Fonts from Google fonts
-
 * Icons from Fontawesome
