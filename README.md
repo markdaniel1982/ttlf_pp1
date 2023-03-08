@@ -4,12 +4,14 @@ Trip the Light Fantastic is a site for information about the digital record labe
 The site is aimed at followers and fans and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases and a gallery of merchandise.
 
 ![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
+
+[View TTLF on Github Pages](https://markdaniel1982.github.io/ttlf_pp1/index.html)
 _____
 ## Key Project Goals
 
 ### Site Owner
   * To provide information about who we are and what we do.
-  * Generate interest as soon as the user lands on the site.
+  * To engage interest as soon as the user lands on the site.
   * To allow users of the site to see a selection of our newest products.
   * To generate income from our products.
 
@@ -19,7 +21,7 @@ _____
   * To easily find links to social network accounts to access more content
 
 ### Returning Users
-  * To keep up-to-date with releases and merchandise
+  * To keep up-to-date with, or to buy releases and merchandise 
 
 _____
 
@@ -45,9 +47,9 @@ _____
 <img src="documentation/images/wireframe_merch.png" alt="Wireframe Merch" width="20%" height="20%">
 
 _____
-## Features and Theme
+## Design, Features and Theme
 
-I have chosen colours that match the brand logo that I have used as the hero image across both the main landing page and the DJ profiles page. I have not included it on the merch page as the .
+I have chosen colours that match the brand logo that I have used as the hero image across both the main landing page and the DJ profiles page. I have not included it on the merch page as the grid container covered the image, making it a redundant element on that page.
 I used rgba(212, 39, 193, 1). A gradient to transparent was added for the header, footer and any elements within the pages which can be seen in the images in this document.
 
 ### Main Page
