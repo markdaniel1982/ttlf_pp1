@@ -31,6 +31,12 @@ header {
 
 }
 
+#mailing-list-link {
+    position: relative;
+    left: 10%;
+    top: -20px;
+}
+
 header a:visited {
     color: black;
 }
@@ -397,6 +403,7 @@ h1 {
         gap: 50px 30px;    
     }
 }
+
 @media screen and (max-width: 420px) {
     
     #bios > h1 {
@@ -405,4 +412,14 @@ h1 {
         display: flex;
         top: 10px;
     }
+
+    #mailing-list-link {
+        position: fixed;
+        left: 33%;
+        top: 100px;
+        width: 143px;
+        text-align: center;
+        line-height: 15px;
+    }
+
 }
