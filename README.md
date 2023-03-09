@@ -5,7 +5,7 @@ The site is aimed at both new and returning visitors and will allow them to lear
 
 ![](documentation/images/responsive.png "Responsivity Test")
 
-[View live page on Github Pages](https://markdaniel1982.github.io/ttlf_pp1/index.html)
+[View live page on Github Pages](https://markdaniel1982.github.io/ttlf_pp1/index.html  "Click to follow link")
 _____
 ## Key Project Goals
 
@@ -69,7 +69,7 @@ There is a hamburger menu which opens to display links to the pages contained wi
 ![index.html](documentation/images/index_top.png "Home Page")
 * Latest Releases:
 
-As you scroll down the page, there is a grid view showing the music that has most recently been released by the label, which can be purchased by clicking the link to go to an external site [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/).
+As you scroll down the page, there is a grid view showing the music that has most recently been released by the label, which can be purchased by clicking the link to go to an external site [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/ "Click to follow link").
 
 ![index - Latest Releases](documentation/images/latest_releases.png "Latest Releases on homepage")
 
@@ -115,11 +115,11 @@ One of the main issues I had was items overlapping on the home page when viewed 
 ### Lighthouse
 * Desktop
 
-![Lighthouse Test Result for Desktop](documentation/images/lighthouse_desktop.png)
+![Lighthouse Test Result for Desktop](documentation/images/lighthouse_desktop.png "Lighthouse Test Result for Desktop")
 
 * Mobile
 
-![Lighthouse Test Result for Mobile](documentation/images/lighthouse_mobile.png) 
+![Lighthouse Test Result for Mobile](documentation/images/lighthouse_mobile.png "Lighthouse Test Result for Mobile") 
 
 
 ___
@@ -147,19 +147,19 @@ _____
 
 ### Code
 
-* Meta description and keywords taken from [ttlf.net](ttlf.net)
+* Meta description and keywords taken from [ttlf.net](ttlf.net "Click to follow link")
 
-* Code for 'latest releases' and 'Merchandise' grid found on [Codepen](https://codepen.io/TexV/pen/pwywNW) and amended to suit my requirements.
+* Code for 'latest releases' and 'Merchandise' grid found on [Codepen](https://codepen.io/TexV/pen/pwywNW "Click to follow link") and amended to suit my requirements.
 
-* Color gradient css code from [w3schools CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp) and amended to suit my requirements.
+* Color gradient css code from [w3schools CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp "Click to follow link") and amended to suit my requirements.
 
-* Code and Styling for the dropdown menu taken from [w3schools Hoverable Dropdown Menu](https://www.w3schools.com/css/css_dropdowns.asp) and amended to suit my requirements.
+* Code and Styling for the dropdown menu taken from [w3schools Hoverable Dropdown Menu](https://www.w3schools.com/css/css_dropdowns.asp "Click to follow link") and amended to suit my requirements.
 
 ### Content & Media
 
-* Content included in the site, including logos and bio text has been taken from [ttlf.net](ttlf.net) (the brands' current live site) and from the TTLF logo pack which was sent to me by the label owners.
+* Content included in the site, including logos and bio text has been taken from [ttlf.net](ttlf.net "Click to follow link") (the brands' current live site) and from the TTLF logo pack which was sent to me by the label owners.
 
-* Content and images from latest releases section on homepage has been taken from [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html)
+* Content and images from latest releases section on homepage has been taken from [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/trip-the-light-fantastic.html "Click to follow link")
 
 ### Fonts and Icons 
  
