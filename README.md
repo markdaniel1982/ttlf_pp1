@@ -96,19 +96,21 @@ _____
 
 ## Testing
 ### HTML
-All pages have passed through an HTML validator any any errors have been corrected.
+All pages have passed through an HTML validator. A few minor issues were corrected, including a few stray end tags to be removed after re-ordering code.
 
 ![HTML Validation](documentation/images/html_validation.png "HTML Validation")
 
 
 ### CSS
-The css has also been passed through a validator.
+The css has also been passed through a validator. A few minor issues were corrected, including a few stray end tags to be removed after re-ordering code.
 
 ![CSS Validation](documentation/images/css_validation.png "CSS Validation")
 
 ### Responsivity
 
-All pages have been regularly checked for any responsivity issues throughout the project to ensure that all required elements were responsive to allow them to be clearly seen on all devices. Any issues were found and debugged using the devtools in the Chrome browser. One of the main issues I had was items overlapping on the home page when viewed on smaller devices. This was fixed using Chrome Devtools to diagnose the problem, usually with position, margins or padding, and then implimented in the relevant code.
+All pages have been regularly checked for any responsivity issues throughout the project to ensure that all required elements were responsive to allow them to be clearly seen on all devices. Any issues were found and debugged using the devtools in the Chrome browser.
+
+One of the main issues I had was items overlapping on the home page when viewed on smaller devices. This was fixed using Chrome Devtools to diagnose the problem, usually with position, margins or padding, and then implimented in the relevant code.
 
 ### Lighthouse
 * Desktop
@@ -126,7 +128,7 @@ ___
 Throughout the project, I was checking the responsivity for smaller devices, debugging using devtools in Chrome and adjusting any elements accordingly. The main issue i had was the positioning of the hero text on the home page, which was sitting too low on smaller devices. This was fixed with a media query to reposition the element when viewed on a mobile phone.
 
 #### Unresolved Bugs
-One difficult issue I found was that my background image wasnt showing at all when the site was deployed to github pages. After extensive searching online, the only fix I was able to find that worked, was to change the link in the style sheet so it was pointing externally to the image within my github. Obviously, this is far from ideal. and I will continue to search for a more permanent fix.
+One difficult issue I found was that my background image wasnt showing at all when the site was deployed to github pages but was displayed on the preview . After extensive searching online, the only fix I was able to find that worked, was to change the link in the style sheet so it was pointing externally to the image within my github. Obviously, this is far from ideal. and I will continue to search for a more permanent fix.
 _____
 
 ## Deployment
