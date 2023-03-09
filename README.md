@@ -3,7 +3,7 @@
 Trip the Light Fantastic is a site for information about the digital record label based in Midlands, UK. 
 The site is aimed at both new and returning visitors and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases and a gallery of merchandise with links to buy items.
 
-![Am I Responsive](documentation/images/responsive.png "Responsivity Test")
+![](documentation/images/responsive.png "Responsivity Test")
 
 [View live page on Github Pages](https://markdaniel1982.github.io/ttlf_pp1/index.html)
 _____
@@ -66,20 +66,26 @@ There is a hamburger menu which opens to display links to the pages contained wi
  
  A short paragraph with an introduction to the label.
 
+![index.html](documentation/images/index_top.png "Home Page")
 * Latest Releases:
 
 As you scroll down the page, there is a grid view showing the music that has most recently been released by the label, which can be purchased by clicking the link to go to an external site [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/).
 
+![index - Latest Releases](documentation/images/latest_releases.png "Latest Releases on homepage")
 
 ## DJ Profiles
 
 On this page, there is a short text about each of the 4 owners to tell the reader more about their backgrounds. 
 
+![DJ Profiles Page](documentation/images/profiles.png "DJ Profiles Page")
+
 ## Merchandise
 
 Here I have included another grid view, similar to the "Latest Releases" on the homepage, where several different items are shown with pictures and a brief description of the item. All pictures are links which take you to the merchandise store where branded clothing items can be purchased.
 
-All pages follow the same styling rules where the colours and fonts used match throughout.
+![](documentation/images/merch.png "Merchandise Page")
+
+All pages follow the same styling rules where the colours and fonts used match throughout and all links open in a new browers tab.
 
 ## Footer
 
