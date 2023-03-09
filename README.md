@@ -147,6 +147,8 @@ _____
 
 ### Code
 
+* Meta description and keywords taken from [ttlf.net](ttlf.net)
+
 * Code for 'latest releases' and 'Merchandise' grid found on [Codepen](https://codepen.io/TexV/pen/pwywNW) and amended to suit my requirements.
 
 * Color gradient css code from [w3schools CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp) and amended to suit my requirements.
