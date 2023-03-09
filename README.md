@@ -16,12 +16,12 @@ _____
   * To generate income from our products.
 
 ### First Time Users
-  * To find out who we are and what we do
-  * To find it instinctively easy to navigate the site
-  * To easily find links to social network accounts to access more content
+  * To find out who we are and what we do.
+  * To find it instinctively easy to navigate the site.
+  * To easily find links to social network accounts to access more content.
 
 ### Returning Users
-  * To keep up-to-date with, or to buy releases and merchandise 
+  * To keep up-to-date with, or to buy releases and merchandise .
 
 _______
 
@@ -62,15 +62,13 @@ The site lands on a page displaying the brand logo, a short 'about us' section a
 
 There is a hamburger menu which opens to display links to the pages contained within the site (DJ profiles & merch store). This is displayed across all 3 pages to allow for easier, more intuitive navigation.
 
-* 'Who Are We'
+* Who Are We
  
- A short paragraph with an introduction to the label
+ A short paragraph with an introduction to the label.
 
 * Latest Releases:
 
 As you scroll down the page, there is a grid view showing the music that has most recently been released by the label, which can be purchased by clicking the link to go to an external site [Toolbox Digital Shop](https://www.toolboxdigitalshop.com/).
-
-Below the latest releases, there is a form to join a mailing list where you can enter an email address and submit via the "Sign me up" button (This is currently not live IRL as the brand does not currently have a mailing list, but for the purposes of this project, I wanted to include it as a demonstration)
 
 
 ## DJ Profiles
@@ -79,7 +77,7 @@ On this page, there is a short text about each of the 4 owners to tell the reade
 
 ## Merchandise
 
-Here I have included another grid view, similar to the "Latest Releases" on the homepage, where several different items are shown with pictures and a brief description of the item. All pictures are links which take you to the merchandise store where branded clothing items can be purchased
+Here I have included another grid view, similar to the "Latest Releases" on the homepage, where several different items are shown with pictures and a brief description of the item. All pictures are links which take you to the merchandise store where branded clothing items can be purchased.
 
 All pages follow the same styling rules where the colours and fonts used match throughout.
 
@@ -92,13 +90,13 @@ _____
 
 ## Testing
 ### HTML
-All pages have passed through an HTML validator any any errors have been corrected
+All pages have passed through an HTML validator any any errors have been corrected.
 
 ![HTML Validation](documentation/images/html_validation.png "HTML Validation")
 
 
 ### CSS
-The css has also been passed through a validator
+The css has also been passed through a validator.
 
 ![CSS Validation](documentation/images/css_validation.png "CSS Validation")
 
