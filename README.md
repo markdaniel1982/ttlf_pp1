@@ -3,7 +3,7 @@
 Trip the Light Fantastic is a site for information about the digital record label based in Midlands, UK. 
 The site is aimed at both new and returning visitors and will allow them to learn more about the owners by way of a DJ profile page, a gallery of latest track releases and a gallery of merchandise with links to buy items.
 
-![Am I Responsive](documentation/images/responsive.png "Am I Responsive?")
+![Am I Responsive](documentation/images/responsive.png "Responsivity Test")
 
 [View live page on Github Pages](https://markdaniel1982.github.io/ttlf_pp1/index.html)
 _____
@@ -82,6 +82,12 @@ On this page, there is a short text about each of the 4 owners to tell the reade
 Here I have included another grid view, similar to the "Latest Releases" on the homepage, where several different items are shown with pictures and a brief description of the item. All pictures are links which take you to the merchandise store where branded clothing items can be purchased
 
 All pages follow the same styling rules where the colours and fonts used match throughout.
+
+## Footer
+
+The footer matches the colour scheme with the gradient to transparent, and also contains copyright information.
+
+![footer](documentation/images/footer.png "Footer & Copyright")
 _____
 
 ## Testing
